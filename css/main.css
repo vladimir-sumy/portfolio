@@ -1,0 +1,43 @@
+html {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.header {
+    background-color: #343c4e;
+    background-image: url("../img/pixels-1193186-1599x1065.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    height: 100vh;
+
+    color: #ffffff;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.header__title {
+    font-size: 56px;
+    margin-bottom: 30px;
+    /* font-family: ; */
+    margin-top: -50px;
+}
+
+.header__slogan {
+    font-size: 28px;
+    line-height: 42px;
+}
+
+.header__arrow {
+    font-size: 48px;
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+}
